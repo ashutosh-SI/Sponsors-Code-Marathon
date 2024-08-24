@@ -1,0 +1,41 @@
+.card {
+    background-color: burlywood;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px #0000001a;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+
+  }
+  .matches-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: gold;
+    border: 1px solid;
+  }
+  
+  .card-date, .card-location, .card-total {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card-date strong, .card-location strong, .card-total strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .matches-container{
+    background-color: palegoldenrod;
+  }
